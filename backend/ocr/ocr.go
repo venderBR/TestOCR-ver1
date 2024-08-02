@@ -6,7 +6,7 @@ import (
 )
 
 func RunOCR(pdfPath string) (string, error) {
-    cmd := exec.Command("python", "C:\\Users\\msi01\\Desktop\\TestOCR\\scripts\\ocr_script.py", pdfPath)
+    cmd := exec.Command("python", "C:\\Users\\msi01\\Desktop\\TestOCR-ver1\\scripts\\ocr_script.py", pdfPath)
     output, err := cmd.Output()
     if err != nil {
         return "", fmt.Errorf("failed to run OCR script: %v", err)

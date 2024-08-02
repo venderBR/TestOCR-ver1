@@ -28,7 +28,7 @@ def pdf_to_text(pdf_path):
         return None
 
 if __name__ == "__main__":
-    pdf_path = 'C:/Users/msi01/Desktop/TestOCR/non-text-searchable.pdf'  # Replace with your PDF file path
+    pdf_path = 'C:/Users/msi01/Desktop/TestOCR-ver1/non-text-searchable.pdf'  # Replace with your PDF file path
     text = pdf_to_text(pdf_path)
     
     if text:

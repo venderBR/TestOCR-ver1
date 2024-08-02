@@ -12,7 +12,7 @@ func ocrHandler(w http.ResponseWriter, r *http.Request) {
     w.Header().Set("Access-Control-Allow-Methods", "POST")
     w.Header().Set("Access-Control-Allow-Headers", "Content-Type")
 	
-    pdfPath := "C:/Users/msi01/Desktop/TestOCR/non-text-searchable.pdf"
+    pdfPath := "C:/Users/msi01/Desktop/TestOCR-ver1/non-text-searchable.pdf"
 
     // Run OCR
     ocrOutput, err := ocr.RunOCR(pdfPath)
